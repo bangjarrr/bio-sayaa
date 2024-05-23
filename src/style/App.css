@@ -1,0 +1,57 @@
+:root {
+    --para-font: #928d8daa;
+    --black: #222222;
+    --grey: #303030;
+    --bg: #fff;
+    --white: #6b6363;
+    --hover: #454545;
+    --purple: #e600ff;
+}
+
+.App {
+    font-family: 'Poppins', sans-serif;
+    color: var(--bg);
+    background: var(--hover);
+}
+
+.text-purple {
+    color: var(--purple);
+}
+
+.shadow-text {
+    text-shadow: 2px 2px 2px var(--purple);
+}
+
+.profile-picture img {
+    border: 2px solid var(--purple);
+    box-shadow: 2px 2px 30px var(--purple);
+    transition: transform 1.2s;
+}
+
+.profile-picture img:hover {
+    transform: scale(1.08);
+}
+
+.bio-link {
+    transition: transform 1.2s;
+}
+
+.bio-link:hover {
+    transform: scale(1.05);
+}
+
+.border-bottom {
+    border-bottom: 1px solid var(--bg);
+}
+
+@media screen and (max-width: 768px) {
+    .w {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .w {
+        width: 50%;
+    }
+}
